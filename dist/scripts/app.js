@@ -5,7 +5,7 @@ require.register("main", function(exports, require, module){
   'use strict';
 
   $(document).ready(function () {
-    $('body').prepend(JST.application());
+    $('body').prepend(JST.menu());
   });
 })();
   
