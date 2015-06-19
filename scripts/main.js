@@ -1,13 +1,9 @@
-@import  
+import router from './router';
+
 (function(){
   'use strict';
 
   $(document).ready(function(){
-    $('body').prepend(JST.menu());
-    
-    var tasks = new TaskCollection();
-    task.fetch().then(function(){
-      console.log();
-    });
+    Backbone.history.start();
   });
 })();
