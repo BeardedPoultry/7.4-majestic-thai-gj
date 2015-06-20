@@ -1,5 +1,6 @@
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
 @import '../bower_components/neat/app/assets/stylesheets/neat';
+@import '..bower_components/pure/pure';
 
 // Typography
 $base-font-family: $helvetica;
@@ -18,4 +19,15 @@ body {
   font-family: $base-font-family;
   background-color: $base-background-color;
   color: $base-font-color;
+  margin: 0;
+}
+.nameofrest {
+  background-color: grey;
+}
+header {
+  background-color: yellow;
+}
+i {
+  height:20px;
+  width:20px;
 }
